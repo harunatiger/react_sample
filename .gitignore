@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# react artifacts
+/client/node_modules
+/app/assets/javascripts/webpack
+/npm-debug.log
