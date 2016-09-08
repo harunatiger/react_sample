@@ -3,7 +3,8 @@
   "scripts": {
     "production": "webpack --config config/production.js",
     "integration": "webpack --config config/integration.js",
-    "development": "webpack --watch --progress --config config/development.js"
+    "development": "webpack --watch --progress --config config/development.js",
+    "heroku-postbuild": "npm run production"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",

@@ -1,0 +1,6 @@
+if [ -f $1/client/package.json ]; then
+  echo "Node.js"
+  exit 0
+fi
+
+exit 1
