@@ -1,6 +1,5 @@
 task :build_client do
   cd "client" do
-    sh "npm install"
     sh "npm run #{Rails.env}"
   end
 end
