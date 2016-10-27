@@ -1,5 +1,6 @@
 {
   "private": true,
+  "engines": { "node": "^4.6.1"},
   "scripts": {
     "production": "webpack --config config/production.js",
     "integration": "webpack --config config/integration.js",
